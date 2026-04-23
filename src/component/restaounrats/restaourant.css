@@ -1,0 +1,47 @@
+
+
+.res_top{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+}
+.res_bot-wrap{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ height: 296px;
+ gap: 10px;
+ margin-top: 48px;
+ height:392px;
+ width: 1296px;
+}
+.res__img{
+ width: 296px;
+ height: 296px;
+ display: block; 
+}
+
+.res__btn{
+ position: absolute;
+ left: 115px;
+width: 100px;
+height: 100px;
+background-color: inherit;
+border: none;
+outline: none;
+background-size: cover;
+ background-image: url(../../assets/before.svg);
+}
+.res__btn2{
+ 
+ position: absolute;
+ right: 115px;
+width: 100px;
+height: 100px;
+background-color: inherit;
+border: none;
+outline: none;
+background-size: cover;
+ background-image: url(../../assets/after.svg);
+}

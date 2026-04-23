@@ -1,0 +1,19 @@
+.inst{
+ margin-bottom: 72px;
+}
+.inst__title-span{
+ opacity: 50%;
+}
+.inst__title{
+ color: #313030;
+ margin-bottom: 21px;
+}
+.inst__img-wrapper{
+ display: flex;
+ align-items: center;
+ gap: 24px;
+}
+.inst_img-item{
+ width: 296px;
+ height: 299px;
+}

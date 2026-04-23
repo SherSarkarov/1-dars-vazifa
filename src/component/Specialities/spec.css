@@ -1,0 +1,61 @@
+.spec{
+ margin-top: 72px;
+}
+.res_btn{
+ width: 118px;
+ height: 48px;
+}
+.res_top{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+}
+.spec_bot-wrap{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ height: 296px;
+ gap: 20px;
+ margin-top: 48px;
+ height:392px;
+ width: 1296px;
+}
+.spec__img{
+ width: 136px;
+ height: 136px;
+ display: block; 
+}
+.lemons{
+ position: relative;
+ max-width: max-content;
+ height: 284px;
+ margin-bottom: 72px;
+ margin-top: 72px;
+}
+.map{
+ margin-bottom: 72px;
+}
+.res__btn{
+ position: absolute;
+ left: 115px;
+width: 100px;
+height: 100px;
+background-color: inherit;
+border: none;
+outline: none;
+background-size: cover;
+ background-image: url(../../assets/before.svg);
+}
+.res__btn2{
+ 
+ position: absolute;
+ right: 115px;
+width: 100px;
+height: 100px;
+background-color: inherit;
+border: none;
+outline: none;
+background-size: cover;
+ background-image: url(../../assets/after.svg);
+}

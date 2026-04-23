@@ -1,0 +1,72 @@
+.header__wrapper{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-top: 24px;
+ padding-bottom: 24px;
+ border-bottom: 1px solid #D4D7E5 ;
+ position: sticky;
+ top: 0;
+ background-color: #fff;
+ z-index: 1000000;
+}
+.header_right{
+ display: flex;
+ align-items: center;
+ gap: 48px;
+ color: #9093A6;
+}.header__bugr {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease; 
+  
+}
+
+.header__bugr.open {
+  max-height: 500px;
+  position: sticky;
+  left: 1300px;
+  top: 99px;
+  width: 285px;
+  background-color: #fff;
+  z-index: 1000000;
+}
+
+.karzina {
+  width: 36px;
+  height: 24px;
+  display: block;
+}
+.logo{
+ width: 184px;
+ height: 24px;
+}
+.karzinka_link{
+ display: flex;
+ align-items: center;
+}
+.login_link{
+ display: flex;
+ align-items: center;
+}
+.login{
+width: 24px;
+height: 24px;
+margin-right: 2px;
+}
+.login__txt{
+  color: #9093A6;
+}
+.btn__img {
+ width: 24px;
+ height: 24px;
+ display: block;
+ margin: 0 auto;
+}
+.burger{
+ width: 48px;
+ height: 48px;
+ border: none;
+ border-radius: 50%;
+ text-align: center;
+}

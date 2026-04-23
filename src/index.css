@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Plus Jakarta Sans;
+  margin: 0;
+}
+.container{
+  width: 1296px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+ul,ol{
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+h1,h2,h3,p{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: block;
+}
+
+/* martel-sans-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Martel Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/martel-sans-v14-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* martel-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Martel Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/martel-sans-v14-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* martel-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Martel Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/martel-sans-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* martel-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Martel Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/martel-sans-v14-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
