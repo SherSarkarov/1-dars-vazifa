@@ -1,9 +1,9 @@
 import React from 'react'
-import { Header } from './component/header/header'
-import { Inst } from './component/insta/inst'
+import { Header } from './component/Header/Header'
+import { Inst } from './component/Insta/Inst'
 import { Hero } from './component/Hero/Hero'
-import { Restaourant } from './component/restaounrats/restaourant'
-import { Ask } from './component/ask/ask'
+import { Restaourant } from './component/Restaounrats/Restaourant'
+import { Ask } from './component/Ask/Ask'
 import { Footer } from './component/Footer/Footer'
 import { Special } from './component/Special/Special'
 
