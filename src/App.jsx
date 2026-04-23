@@ -1,11 +1,12 @@
 import React from 'react'
 import { Header } from './component/header/header'
+import { Inst } from './component/insta/inst'
 import { Hero } from './component/Hero/Hero'
 import { Restaourant } from './component/restaounrats/restaourant'
 import { Ask } from './component/ask/ask'
-import { Spec } from './component/Specialities/spec'
-import { Inst } from './component/insta/inst'
 import { Footer } from './component/Footer/Footer'
+import { Special } from './component/Special/Special'
+
 
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
     <Hero/>
     <Restaourant/>
     <Ask/>
-    <Spec/>
+    <Special/>
     <Inst/>
     <Footer/>
     </>

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./spec.css"
+import "./Special.css"
 
 import bagel from "../../assets/bagel.svg"
 import burger from "../../assets/burger.svg"
@@ -12,7 +12,7 @@ import pasta from "../../assets/pasta.svg"
 import lemons from "../../assets/lemons.svg"
 import map from "../../assets/Map.svg"
 
-export const Spec = () => {
+export const Special = () => {
   return (
     <>
     <section className="spec">
