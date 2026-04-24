@@ -6,10 +6,6 @@ import vegan from "../../assets/vegan.jpg"
 import spicy from "../../assets/spicy.jpg" 
 
 
-
-
-
-
 export const Restaourant = () => {
   return (
     <>
